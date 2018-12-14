@@ -6,6 +6,20 @@ const App = React.memo(() => (
       <Logo />
      </div>
     </div>
+    
+    <div className="row">
+     <div className="col">
+      <p>
+        {COMPANY_DESCRIPTION}. Наши преимущества:
+      </p>
+     </div>
+    </div>
+    
+    <div className="row">
+     <div className="col">
+      <SimpleList items={COMPANY_ADVANTAGES} />
+     </div>
+    </div>
   </div>
 ));
 
