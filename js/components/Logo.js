@@ -1,5 +1,5 @@
 const Logo = React.memo(({ href = '/' }) => (
   <a href={href}>
-    <img src="/img/logo.png" />
+    <img alt={`${COMPANY_NAME} logo`} src="/img/logo.png" />
   </a>
 ));
