@@ -1,7 +1,11 @@
 'use strict';
 const App = React.memo(() => (
-  <div>
-    <h1>Hello World!</h1>
+  <div className="container">
+    <div className="row">
+     <div className="col text-center">
+      <Logo />
+     </div>
+    </div>
   </div>
 ));
 
